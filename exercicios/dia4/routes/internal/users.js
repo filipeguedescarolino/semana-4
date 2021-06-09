@@ -140,6 +140,7 @@ router.put('/:id', (req, res) => {
       delete value.passwordSame
     }
 
+
     db.query('UPDATE users SET ? WHERE id = ?', [value, id], (error, results, _) => {
       if (error) {
         throw error

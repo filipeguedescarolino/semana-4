@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:itgest-academy/semana-4.git",
-  "author": "Eleandro Duzentos <eleandro@inbox.ru>",
+  "author": "Filipe",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon exercicios/dia4"
